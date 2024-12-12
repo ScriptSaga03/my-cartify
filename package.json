@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint src/**/*.jsx",
-    "format": "prettier --write src/**/*.jsx"
+    "format": "prettier --write src/**/*.jsx",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
